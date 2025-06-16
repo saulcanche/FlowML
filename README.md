@@ -8,6 +8,16 @@ source venv/bin/activate  Linux
 installar
 pip install -r requirements.txt
 
+
+run backend:
+cd Backedn/backend/
+python manage migrate
+python mange run
+
+
+Frontend:
+
+
 ## Folder tree
 .
 ├── Backend
